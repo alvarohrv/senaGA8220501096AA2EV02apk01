@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#0c235b">
+
+    <!-- Form Title -->
+    <TextView
+        android:id="@+id/tvFormTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Producto"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Form Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#7B96D4"
+        android:padding="18dp"
+        android:layout_below="@id/tvFormTitle">
+
+        <!-- Name Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Brand Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca:"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/etBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Category Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categoría:"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Presentation Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Presentación:"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/etPresentation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Status Input -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado:"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="2dp"/>
+        <EditText
+            android:id="@+id/etStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Create Button -->
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear Producto"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btnBack"
+            android:background="#0c235b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atras"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

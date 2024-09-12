@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#4C6FC0"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestor de Inventario"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:letterSpacing="0.1"/>
+
+    <!-- Formulario -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- Campo de Usuario -->
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:background="@android:color/white"
+            android:textColor="#4cbf6b"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"/>
+
+        <!-- Campo de Contraseña -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:background="@android:color/white"
+            android:textColor="#4cbf6b"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"/>
+
+        <!-- Botón de Inicio de Sesión -->
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicia sesión"
+            android:background="#7A96D5"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:padding="12dp"
+            android:fontFamily="sans-serif"/>
+
+        <!-- Enlace de ¿Olvidaste tu contraseña? -->
+        <TextView
+            android:id="@+id/tvForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Mensaje de error -->
+    <TextView
+        android:id="@+id/tvErrorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"
+        android:text="Error en el inicio de sesión"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"/>
+</LinearLayout>

@@ -1,0 +1,52 @@
+# Archivos por defecto
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+####  GIT IGNORE recomendado por GPT:
+
+# IntelliJ IDEA/Android Studio
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Android
+*.apk
+*.ap_
+/app/build/
+
+# Log & Temporary files
+*.log
+*.temp
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*~ 
+
